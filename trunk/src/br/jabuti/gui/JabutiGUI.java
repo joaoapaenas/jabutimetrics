@@ -1085,6 +1085,7 @@ public class JabutiGUI extends JFrame {
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, "Cannot parser file " + pclass
 					+ "! ", "Error", JOptionPane.ERROR_MESSAGE);
+			e.printStackTrace();
 			return;
 		}
 
