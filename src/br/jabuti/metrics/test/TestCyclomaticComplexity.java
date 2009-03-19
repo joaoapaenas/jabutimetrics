@@ -102,6 +102,19 @@ public class TestCyclomaticComplexity {
 		testValue(3,nomeDeClasseInput);
 	}	
 	
+	@Test
+	public void testCCAvg218() {
+		nomeDeClasseInput = "br.jabuti.metrics.test.testInput.CyclomaticComplexityAverage";
+		instanceProgram(nomeDeClasseInput);
+		metricas = new Metrics(programaTest);
+		double avgComplexity = metricas.cc_avg(nomeDeClasseInput);
+		assertEquals(2.18,avgComplexity,0.01);
+
+	}	
+	
+	
+	
+	
 	private void instanceProgram(String className){
 		try {
 			programaTest = new Program(className);
