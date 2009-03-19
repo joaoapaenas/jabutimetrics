@@ -14,6 +14,7 @@ import br.jabuti.metrics.Metrics;
 
 public class TestNumberOfParametersByMethod {
 	String nameOfInputClass;
+	String nameOfInputClassParent;
 	
 	Program testProgram;
 	Metrics metrics;
@@ -102,7 +103,7 @@ public class TestNumberOfParametersByMethod {
 	@Test
 	public void testNumberOfParameterByMethod3(){
 		nameOfInputClass = "br.jabuti.metrics.test.testInput.InputTestNumberOfParametersByMethod3";
-		String nameOfInputClassParent = "br.jabuti.metrics.test.testInput.InputTestNumberOfParametersByMethod3Parent";
+		nameOfInputClassParent = "br.jabuti.metrics.test.testInput.InputTestNumberOfParametersByMethod3Parent";
 		try {
 			testProgram = new Program(nameOfInputClass);
 		} catch (FileNotFoundException e) {
@@ -116,8 +117,10 @@ public class TestNumberOfParametersByMethod {
 			e.printStackTrace();
 		}
 		metrics = new Metrics(testProgram);
-		double numberOfParametersByMethod = metrics.mnpm(nameOfInputClass);
+		double numberOfParametersByMethod; 
+		numberOfParametersByMethod = metrics.mnpm(nameOfInputClass);
 		assertEquals(1,numberOfParametersByMethod,0);
+		
 		numberOfParametersByMethod = metrics.mnpm(nameOfInputClassParent);
 		assertEquals(3,numberOfParametersByMethod,0);
 	}
