@@ -1,6 +1,4 @@
-<h1><u>*Métricas Implementadas*</u></h1>
-
-<h3>Lista das métricas implementadas no "Jabuti 1.0": </h3>
+<h3><u>Lista das métricas implementadas no "Jabuti 1.0":</u> </h3>
 
 <wiki:toc max_depth="1" />
 ----
