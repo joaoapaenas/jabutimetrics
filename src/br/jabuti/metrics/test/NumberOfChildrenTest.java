@@ -95,7 +95,7 @@ public class NumberOfChildrenTest {
 	public void numberOfChildrenEqualsOneTest(){
 
 		inputClassName = "br.jabuti.metrics.test.testInput.InputTesteNumeroDeFilhosIgual1Filho"; // Eh necessario que seja passado o nome inteiro da classe (classe + pacotes);
-		String inputClassName1 = "br.jabuti.metrics.test.testInput.InputTesteNumeroDeFilhosIgual1"; // Eh necessario que seja passado o nome inteiro da classe (classe + pacotes);
+		String inputSuperClassName = "br.jabuti.metrics.test.testInput.InputTesteNumeroDeFilhosIgual1"; // Eh necessario que seja passado o nome inteiro da classe (classe + pacotes);
 		try {
 			programTest = new Program(inputClassName);
 		} catch (FileNotFoundException e) {
@@ -109,7 +109,7 @@ public class NumberOfChildrenTest {
 			e.printStackTrace();
 		}
 		metrics = new Metrics(programTest);
-		double numeroDeFilhos = metrics.noc(inputClassName1);
+		double numeroDeFilhos = metrics.noc(inputSuperClassName);
 		assertEquals(1,numeroDeFilhos,0);
 	}
 }
