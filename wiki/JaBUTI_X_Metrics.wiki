@@ -9,7 +9,6 @@
 || *JaBUTI* || *Metrics* ||
 ||Number of Children (NOC)||Number of Children (NSC)||
 ||Number os Interfaces Implemented (NII)||Number of Interfaces (NOI)||
-||Number os Interfaces Implemented (NII||||
 ||Depth of Inheritance Tree (DIT)||Depth of Inheritance Tree (DIT)||
 ||Number of Methods Overriden by a Subclass (NMOS)||Number of Overriden Methods (NORM)||
 ||Specialization Index (SI)||Specialization Index (SIX)||
@@ -53,7 +52,7 @@
     * Nested Block Depth (NBD): The depth of nested blocks of code.
 
     * Afferent Coupling (Ca)^1^: the number of classes outside a package that depend on classes inside the package.
-    * *Efferent Coupling (Ce)^1^: the number of classes inside a package that depend on classes outside the package.
+    * Efferent Coupling (Ce)^1^: the number of classes inside a package that depend on classes outside the package.
     * Instability (I): Ce / (Ca + Ce)
     * Abstractness (A): the number of abstract classes (and interfaces) divided by the total number of types in a package
     * Normalized Distance from Main Sequence (Dn): | A + I - 1 |, this number should be small, close to zero for good packaging design
