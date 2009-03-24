@@ -1,0 +1,31 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Existe uma diferença entre os valores apresentados na Jabuti e o que
+por definiçao deveria apresentar.
+
+==Definição de Complexidade Ciclomática==
+Reflete diretamente o número de caminhos independentes que um programa pode tomar durante a sua execução. Esta métrica está relacionada a disciplina de testes, pois para cada um dos caminhos (em tese) deveríamos criar um caso de teste que exercite-o.
+
+==Cálculo da Complexidade Ciclomática==
+O cálculo se dá da seguinte forma:
+
+<pre> CC = V - N + 2</pre>
+   * CC: Complexidade Ciclomática
+   * V: número de vértices
+   * N: número de nós
+
+Também pode ser calculado como:
+<pre> CC = P + 1 </pre>
+   * CC: Complexidade Ciclomática
+   * P: número de predicativos
+
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
