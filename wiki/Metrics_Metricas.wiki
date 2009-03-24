@@ -78,10 +78,10 @@ The depth of nested blocks of code.
 
 ----
 
-<h2>Referências</h2>
+<h2><u>Referências</u></h2>
 
- *http://metrics.sourceforge.net/
- *http://open.ncsu.edu/se/tutorials/metrics/index.html#section4_0
+ * http://metrics.sourceforge.net/
+ * http://open.ncsu.edu/se/tutorials/metrics/index.html#section4_0
 
 *Observação:*
 
