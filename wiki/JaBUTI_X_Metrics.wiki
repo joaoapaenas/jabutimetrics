@@ -1,0 +1,5 @@
+#summary Relação das métricas implementadas no JaBUTi, no Metrics ou em ambos.
+
+=<h3><u>Métricas que constam no _JaBUTi_ e no _Metrics_</u></h3>=
+
+|| *JaBUTI* || *Metrics* ||
