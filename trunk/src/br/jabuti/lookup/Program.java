@@ -128,6 +128,39 @@ public class Program implements Serializable {
         }
         updateSubSuper();	// links super and subclasses
     }
+    
+    public void addClass(String className)
+    throws ClassNotFoundException, FileNotFoundException, IOException {
+    	boolean noSys = true;
+    	String toAvoid = null;
+    	String classPath = System.getProperty("java.class.path");
+//    	classes = new Hashtable();
+    	ClassClosure cc = null;
+
+
+    	if (classPath == null) {
+    		cc = new ClassClosure();
+    	} else {
+    		cc = new ClassClosure(classPath);
+    	}
+    	String[] closure = cc.getClosure(className, noSys, toAvoid);
+
+    	for (int i = 0; i < closure.length; i++) {
+    		String s = cc.findFile(closure[i]);
+    		RClass mc = null;
+
+    		if (s != null &&	// do I have the code for the class?
+    				!cc.doMatch(closure[i], noSys, toAvoid)) {
+    			JavaClass javaClass = new ClassParser(s).parse();
+
+    			mc = new RClassCode(javaClass, closure[i]);
+    		} else {
+    			mc = new RClass(closure[i]);
+    		}
+    		classes.put(closure[i], mc);
+    	}
+    	updateSubSuper();	// links super and subclasses
+    }
 
     /** The same of <BR>
      *     <center> <code>Program( className, true, null ) </code></center>
@@ -252,7 +285,7 @@ public class Program implements Serializable {
         }
         
         // elimina aquelas classes que nao pertencem ao escopo
-        // e que não possuem sub-classe ou implementação
+        // e que nï¿½o possuem sub-classe ou implementaï¿½ï¿½o
 		en = classes.elements();
         while (en.hasMoreElements())
         {
@@ -262,7 +295,7 @@ public class Program implements Serializable {
 				continue;
 			}		// this class is not of interest
 			if ( dc.implementations.size() == dc.subclasses.size())
-			{ // se são iguais, ambos são 0
+			{ // se sï¿½o iguais, ambos sï¿½o 0
 				classes.remove(dc.name);
 			}
         }

@@ -112,4 +112,29 @@ public class NumberOfChildrenTest {
 		double numeroDeFilhos = metrics.noc(inputSuperClassName);
 		assertEquals(1,numeroDeFilhos,0);
 	}
+	
+	@Test
+	public void numberOfChildrenEqualsTwoTest(){
+
+		inputClassName = "br.jabuti.metrics.test.testInput.InputTestChildrenTwo"; // Eh necessario que seja passado o nome inteiro da classe (classe + pacotes);
+		String inputClassNameFilho1 =  "br.jabuti.metrics.test.testInput.InputTesteNumeroDeFilhosIgual1Filho"; 
+		String inputSuperClassName = "br.jabuti.metrics.test.testInput.InputTesteNumeroDeFilhosIgual1"; // Eh necessario que seja passado o nome inteiro da classe (classe + pacotes);
+		try {
+			programTest = new Program(inputClassNameFilho1);
+			programTest.addClass(inputClassName);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		metrics = new Metrics(programTest);
+		
+		double numeroDeFilhos = metrics.noc(inputSuperClassName);
+		assertEquals(2,numeroDeFilhos,0);
+	}
 }
