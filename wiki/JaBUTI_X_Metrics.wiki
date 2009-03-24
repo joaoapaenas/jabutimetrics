@@ -1,5 +1,9 @@
 #summary Relação das métricas implementadas no JaBUTi, no Metrics ou em ambos.
 
+
+<wiki:toc max_depth="1" />
+----
+
 =<h3><u>Métricas que constam no _JaBUTi_ e no _Metrics_</u></h3>=
 
 || *JaBUTI* || *Metrics* ||
@@ -56,3 +60,10 @@
 
 ----
 1. Semelhantes à métrica _CBO - Coupling Between Object_, implementada no JaBUTi.
+
+----
+
+As listas com as descrições das métricas implementadas, respectivamente, no JaBUTi e no Metrics encontram-se em:
+
+ * http://code.google.com/p/jabutimetrics/wiki/Jabuti_Metricas
+ * http://code.google.com/p/jabutimetrics/wiki/Metrics_Metricas
