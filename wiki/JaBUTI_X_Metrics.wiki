@@ -3,3 +3,56 @@
 =<h3><u>Métricas que constam no _JaBUTi_ e no _Metrics_</u></h3>=
 
 || *JaBUTI* || *Metrics* ||
+||Number of Children (NOC)||Number of Children (NSC)||
+||Number os Interfaces Implemented (NII)||Number of Interfaces (NOI)||
+||Number os Interfaces Implemented (NII||||
+||Depth of Inheritance Tree (DIT)||Depth of Inheritance Tree (DIT)||
+||Number of Methods Overriden by a Subclass (NMOS)||Number of Overriden Methods (NORM)||
+||Specialization Index (SI)||Specialization Index (SIX)||
+||Cyclomatic Complexity Metric (CC) - CC_AVR, CC_MAX||McCabe Cyclomatic Complexity (VG)||
+||Weighted Methods per Class (WMC_CC)||Weighted Methods per Class (WMC)||
+||Lack of Cohesion of Methods (LCOM, LCOM_2)||Lack of Cohesion of Methods (LCOM)||
+||Average Number of Parameters per Method (ANPM)||Number of Parameters (PAR)||
+||Maximum Number of Parameters per Method (MNPM)||Number of Parameters (PAR)||
+||Number of Class Methods in a class (NCM)||Number of Static Methods (NSM)||
+
+
+=<h3><u>Métricas que constam no _JaBUTi_ e não no _Metrics_</u></h3>=
+
+   * Average Method Size (AMZ_LOCM);
+   * Average Method Size (AMZ_SIZE);
+   * Coupling Between Object (CBO);
+   * Number of public Class Methods in a class (NCM_2);
+   * Number of Class Variables in a class (NCV);
+   * Number of Instance Variables in a class (NIV);
+   * Number of Methods Added by a Subclass (NMAS);
+   * Number of Methods Inherited by a Subclass (NMIS);
+   * Number of Public Instance Methods in a class (NPIM);
+   * Response for a Class (RFC);
+   * Weighted Methods per Class (WMC):
+      * Weighted Methods per Class (WMC): WMC_1 - metric 1,
+      * Weighted Methods per Class (WMC): WMC_LOCM - metric LOCM,
+      * Weighted Methods per Class (WMC): WMC_SIZE - metric SIZE (number of instructions).
+
+
+=<h3><u>Métricas que constam no _Metrics_ e não no _JaBUTi_</u></h3>=
+
+    * Number of Packages: total number of packages
+    * Number of Classes: total number of classes in the selected scope
+    * Number of Methods (NOM): total number of methods defined in the selected scope
+
+  
+    * Lines of Code: since version 1.3.6 Lines of code has been changed and separated into:
+          * TLOC: Total lines of code that will counts non-blank and non-comment lines in a compilation unit. usefull for thoses interested in computed KLOC.
+          * MLOC: Method lines of code will counts and sum non-blank and non-comment lines inside method bodies.
+
+    * Nested Block Depth (NBD): The depth of nested blocks of code.
+
+    * Afferent Coupling (Ca)^1^: the number of classes outside a package that depend on classes inside the package.
+    * *Efferent Coupling (Ce)^1^: the number of classes inside a package that depend on classes outside the package.
+    * Instability (I): Ce / (Ca + Ce)
+    * Abstractness (A): the number of abstract classes (and interfaces) divided by the total number of types in a package
+    * Normalized Distance from Main Sequence (Dn): | A + I - 1 |, this number should be small, close to zero for good packaging design
+
+----
+1. Semelhantes à métrica _CBO - Coupling Between Object_, implementada no JaBUTi.
