@@ -1,3 +1,5 @@
+#Lista das métricas implementadas no "JaBUTi 1.0"
+
 <h2><u>Lista das métricas implementadas no "JaBUTi 1.0":</u></h2>
 
 <wiki:toc max_depth="1" />
