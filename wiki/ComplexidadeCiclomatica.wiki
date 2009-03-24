@@ -2,6 +2,8 @@
 
 = Introduction =
 
+Complexidade ciclomática (também chamada de complexidade condicional) é uma métrica para determinar o quão complexo é um programa (ou um trecho dele).
+
 Existe uma diferença entre os valores apresentados na Jabuti e o que
 por definiçao deveria apresentar.
 
