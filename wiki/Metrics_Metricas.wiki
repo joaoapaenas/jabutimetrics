@@ -5,6 +5,8 @@
 <wiki:toc max_depth="1" />
 ----
 
+
+
 = <h3> 01. _Number of Classes (NOC)_</h3> =
 Total number of classes in the selected scope.
 
@@ -37,12 +39,12 @@ Counts the number of flows through a piece of code. Each time a branch occurs (i
 = <h3> 10. _Weighted Methods per Class (WMC)_ </h3> =
 Sum of the McCabe Cyclomatic Complexity for all methods in a class.
 
-= <h3> 11. _Lack of Cohesion of Methods (LCOM*)_ </h3> =
-A measure for the Cohesiveness of a class. Calculated with the Henderson-Sellers method (LCOM*, see page 147). If (m(A) is the number of methods accessing an attribute A, calculate the average of m(A) for all attributes, subtract the number of methods m and divide the result by (1-m). A low value indicates a cohesive class and a value close to 1 indicates a lack of cohesion and suggests the class might better be split into a number of (sub)classes.
+= <h3> 11. _Lack of Cohesion of Methods (LCOM)_ </h3> =
+A measure for the Cohesiveness of a class. Calculated with the Henderson-Sellers method (LCOM, see page 147). If (m(A) is the number of methods accessing an attribute A, calculate the average of m(A) for all attributes, subtract the number of methods m and divide the result by (1-m). A low value indicates a cohesive class and a value close to 1 indicates a lack of cohesion and suggests the class might better be split into a number of (sub)classes.
 
 I'm unsure of the usefullness of this metric in Java since it penalizes the proper use of getters and setters as the only methods that directly access an attribute and the other methods using the gettter/setter methods. Perhaps I could alter the implementation to take this into account, assuming standard JavaBean naming conventions.
 
-The LCOM* metric has its own preference page, where you can control whether static fields and static methods should be considered in the calculation of LCOM*.
+The LCOM metric has its own preference page, where you can control whether static fields and static methods should be considered in the calculation of LCOM.
 
 = <h3> 12. _Afferent Coupling (CA)_ </h3> =
 The number of classes outside a package that depend on classes inside the package.
@@ -73,3 +75,17 @@ Total number of static attributes in the selected scope.
 
 = <h3> 21. _Nested Block Depth (NBD)_ </h3> =
 The depth of nested blocks of code.
+
+----
+
+<h2>Referências</h2>
+
+ *http://metrics.sourceforge.net/
+ *http://open.ncsu.edu/se/tutorials/metrics/index.html#section4_0
+
+*Observação:*
+
+As métricas implementadas no plug-in "Metrics 1.3.6" têm como referência os livros:
+ * "Object-Oriented Metrics, measures of Complexity", de Brian Henderson-Sellers, Prentice Hall, 1996.
+ * "OO Design Quality Metrics, An Analysis of Dependencies" de Robert Martin.
+ * "Agile Software Development, Principles, Patterns and Practices" de Robert Martin.
