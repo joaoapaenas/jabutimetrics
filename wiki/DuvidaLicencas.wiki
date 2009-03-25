@@ -1,5 +1,5 @@
+#summary Compatibilidade entre LGPL (Jabuti) e CPL (Metrics).
 #labels Phase-Support
-#compatibilidade entre LGPL (Jabuti) e CPL (Metrics).
 
 = Introdução =
 
