@@ -108,16 +108,15 @@
 || ||        RequireThis ||  sim  ||
 || ||        UnnecessaryParentheses ||  sim  ||
 ||     Class Design  || || ||
-|| ||        VisibilityModifier ||  sim  ||
-|| ||        FinalClass ||  sim  ||
-|| ||        InterfaceIsType ||  sim  ||
-|| ||        HideUtilityClassConstructor ||  sim  ||
-|| ||        DesignForExtension ||  sim  ||
-|| ||        MutableException ||  não  ||
+|| ||        VisibilityModifier||  sim  ||
+|| ||        FinalClass||  sim  ||
+|| ||        InterfaceIsType||  sim  ||
+|| ||        HideUtilityClassConstructor||  sim  ||
+|| ||        DesignForExtension||  sim  ||
+|| ||        MutableException||  não  ||
 || ||        ThrowsCount ||  não  ||
-||     Duplicate Code  || || 
+||     Duplicate Code  || || ||
 || ||        StrictDuplicateCode ||  sim  ||
-|| || || 
 ||     Metrics  || || ||
 || ||        BooleanExpressionComplexity ||  sim  ||
 || ||        ClassDataAbstractionCoupling ||  sim  ||
