@@ -14,11 +14,13 @@
 ||Specialization Index (SI)||Specialization Index (SIX)||
 ||Cyclomatic Complexity Metric (CC) - CC_AVR, CC_MAX||McCabe Cyclomatic Complexity (VG)||
 ||Weighted Methods per Class (WMC_CC)||Weighted Methods per Class (WMC)||
-||Lack of Cohesion of Methods (LCOM, LCOM_2)||Lack of Cohesion of Methods (LCOM)||
 ||Average Number of Parameters per Method (ANPM)||Number of Parameters (PAR)||
 ||Maximum Number of Parameters per Method (MNPM)||Number of Parameters (PAR)||
 ||Number of Class Methods in a class (NCM)||Number of Static Methods (NSM)||
+|| || ||
+||Lack of Cohesion of Methods (LCOM)||Lack of Cohesion of Methods (LCOM)||
 
+*<u>Observação:</u>* apesar da métrica _Lack of Cohesion of Methods_ estar implementada em ambos, a definição que cada um utiliza é diferente.
 
 =<h3><u>Métricas que constam no _JaBUTi_ e não no _Metrics_</u></h3>=
 
