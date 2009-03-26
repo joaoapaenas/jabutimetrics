@@ -1,3 +1,4 @@
+
 ||  Standard Checks ||  Módulos de Validação aplicado ao código Java ||  Interesante  ||
 ||     Javadoc Comments  || || ||
 || ||        JavadocPackage ||  não  ||
@@ -136,3 +137,6 @@
 || ||        Indentation ||  sim  ||
 || ||        TrailingComment ||  não  ||
 || ||        Regexp ||  não  ||
+
+Tabela com a informação completa em 
+[http://spreadsheets.google.com/pub?key=p_W239cOkFGxXCGHbUDPSNw]
