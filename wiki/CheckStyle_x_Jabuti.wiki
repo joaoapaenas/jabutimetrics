@@ -2,11 +2,9 @@ Execução do CheckStyle para o Exemplo de Jabuti
 
 Tempo de execução:
 
-- real 0m1.361s
-
-- user 0m1.104s
-
-- sys 0m0.076s
+ * real 0m1.361s
+ * user 0m1.104s
+ * sys 0m0.076s
 
 
 O CheckStyle encontro os seguentes problemas no estilo de codificação, usando os modulos definidos em [http://jabutimetrics.googlecode.com/files/jabuti_checks.xml]:
@@ -64,10 +62,7 @@ $/VendingMachine.java:1: Found duplicate of 21 lines in $/TestDriver.java, start
 
 É importante observar que alguns módulos são muito restritos e inclusive avaliam os comentarios como:
 
-* MagicNumber
-
-* DesignForExtension
-
-* StrictDuplicateCode
-
-* MultipleStringLiterals
+ * MagicNumber
+ * DesignForExtension
+ * StrictDuplicateCode
+ * MultipleStringLiterals
