@@ -103,3 +103,9 @@ Métrica calculada através da soma da complexidade de cada método. Não se def
  * Utiliza-se a métrica LOCM para a complexidade de cada método; esta métrica será chamada WMC_LOCM;
 
  * Utiliza-se o tamanho do método (número de instruções) para a complexidade de cada método; esta métrica será chamada WMC_SIZE.
+
+----
+
+= <h2> Referência </h2> =
+
+ * Manual do "JaBUTi 1.0"
