@@ -76,6 +76,9 @@ Total number of static attributes in the selected scope.
 = <h3> 21. _Nested Block Depth (NBD)_ </h3> =
 The depth of nested blocks of code.
 
+= <h3> 22. _Number of Parameters (PAR)_ </h3> =
+Total number of parameters in the selected scope.
+
 ----
 
 <h2><u>Referências</u></h2>
