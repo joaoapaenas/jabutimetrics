@@ -1,3 +1,4 @@
+#summary Resultados da execução do CheckStyle em o projeto exemplo de Jabuti
 Execução do CheckStyle para o Exemplo de Jabuti
 
 Tempo de execução:
