@@ -1,4 +1,4 @@
-||  Standard Checks ||  Módulos de Validação aplicado ao código Java ||  Incluído  ||
+||  Standard Checks ||  Módulos de Validação aplicado ao código Java ||  Interesante  ||
 ||     Javadoc Comments  || || ||
 || ||        JavadocPackage ||  não  ||
 || ||        JavadocType ||  não  ||
