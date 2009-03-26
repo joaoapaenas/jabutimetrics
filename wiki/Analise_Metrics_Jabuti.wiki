@@ -1,0 +1,28 @@
+#summary Análise comparativa entre os resultados obtidos pela JaBUTi e pelo Metrics.
+
+=<h3>Exemplo do Manual da JaBUTi - Máquina de vendas</h3>=
+
+http://jabutimetrics.googlecode.com/files/resultados1-vending-machine.png
+
+Na tabela acima, é mostrado o resultado obtido em ambas as ferramentas, sendo que o que está grifado em vermelho é um valor divergente.
+
+Como pode-se ver, as métricas que deram valores diferentes foram: ANPM (Número Médio de Parâmetros), CC_AVG (Número Médio da Complexidade Ciclomática) e WMC_CC (_Weighted Methods per Class_).
+
+Para analisar os resultados, é preciso considerar a tabela abaixo:
+||Classe||Número de Métodos||Número Total de Parâmetros|| Soma da CC dos Métodos da Classe||
+||Dispenser.java||3||4||11||
+||TestDriver.java||1||1||7||
+||VendingMachine.java||4||1||5||
+
+*ANPM:* efetuando a divisão entre o número total de parâmetros e o número de métodos de cada classe, verifica-se que os valores corretos foram dados pelo "Metrics".
+
+*CC_AVG:* efetuando a divisão entre a soma da complexidade ciclomática dos métodos da classe e o número de métodos de cada classe, verifica-se que os valores corretos foram dados pelo "Metrics".
+
+*WMC_CC:* pela definição, o WMC_CC é a soma da complexidade ciclomática dos métodos de cada classe. Assim, como pode ser verificado, o valor retornado pelo "Metrics" é o correto. 
+
+
+----
+
+=<h3>Exemplo do Programa de Testes </h3>=
+
+Em elaboração.
