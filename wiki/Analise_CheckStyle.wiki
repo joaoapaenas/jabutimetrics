@@ -1,3 +1,10 @@
+#summary Pré-Seleção das Métricas do CheckStyle (interessantes para código-fonte)
+
+== Métricas do CheckStyle ==
+Tabela com a informação completa em 
+[http://spreadsheets.google.com/pub?key=p_W239cOkFGxXCGHbUDPSNw]
+
+Resumo:
 
 ||  Standard Checks ||  Módulos de Validação aplicado ao código Java ||  Interesante  ||
 ||     Javadoc Comments  || || ||
@@ -137,6 +144,3 @@
 || ||        Indentation ||  sim  ||
 || ||        TrailingComment ||  não  ||
 || ||        Regexp ||  não  ||
-
-Tabela com a informação completa em 
-[http://spreadsheets.google.com/pub?key=p_W239cOkFGxXCGHbUDPSNw]
