@@ -22,6 +22,8 @@
 
 *<u>Observação:</u>* apesar da métrica _Lack of Cohesion of Methods_ estar implementada em ambos, a definição que cada um utiliza é diferente.
 
+*<u>Observação 2:</u>* as métricas WMC_1 da JaBUTi, e NOM (Number of Methods) do Metrics são semelhantes, mas não iguais. A métrica da JaBUTi contabiliza, segundo a definição, todos os métodos da classe. Já a do Metrics, conta apenas os métodos que não são do tipo "static".
+
 =<h3><u>Métricas que constam no _JaBUTi_ e não no _Metrics_</u></h3>=
 
    * Average Method Size (AMZ_LOCM);
