@@ -22,7 +22,7 @@ Para analisar os resultados, considerando o *código-fonte*, é preciso consider
 
 <h4><u>_Observação (baseada na resposta por e-mail de Marcio Delamaro):_</u></h4>
 
-Os valores retornados pela JaBUTi foram divergentes porque ela considera, justamente, o _bytecode_ do programa. Com isso, ela pode considerar métodos que não estão explícitos no código-fonte (por exemplo, ela considera o método construtor por default, e o "Metrics" apenas quando ele está implementado explicitamente no código-fonte). Como os métodos Dispenser.java e TestDriver.java não possuem construtor no código-fonte, se adicionarmos 1 ao número de métodos e refazermos as contas, ANPM e CC_AVG estão de acordo com o que seria esperado da análise do _bytecode_ do programa.
+Os valores retornados pela JaBUTi foram divergentes porque ela considera, justamente, o _bytecode_ do programa. Com isso, ela pode considerar métodos que não estão explícitos no código-fonte (por exemplo, ela considera o método construtor por default, e o "Metrics" apenas quando ele está implementado explicitamente no código-fonte). Como as classes Dispenser e TestDriver não possuem construtor no código-fonte, se adicionarmos 1 ao número de métodos e refazermos as contas, ANPM e CC_AVG estão de acordo com o que seria esperado da análise do _bytecode_ do programa.
 
 
 ----
