@@ -10,9 +10,9 @@ Reflete diretamente o número de caminhos independentes que um programa pode tom
 ==Cálculo da Complexidade Ciclomática==
 O cálculo se dá da seguinte forma:
 
-<pre> CC = V - N + 2</pre>
+<pre> CC = A - N + 2</pre>
    * CC: Complexidade Ciclomática
-   * V: número de vértices
+   * A: número de arestas
    * N: número de nós
 
 Também pode ser calculado como:
