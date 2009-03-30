@@ -8,17 +8,21 @@ Na tabela acima, é mostrado o resultado obtido em ambas as ferramentas, sendo q
 
 Como pode-se ver, as métricas que deram valores diferentes foram: ANPM (Número Médio de Parâmetros), CC_AVG (Número Médio da Complexidade Ciclomática) e WMC_CC (_Weighted Methods per Class_).
 
-Para analisar os resultados, é preciso considerar a tabela abaixo:
+Para analisar os resultados, considerando o *código-fonte*, é preciso considerar a tabela abaixo:
 ||Classe||Número de Métodos||Número Total de Parâmetros|| Soma da CC dos Métodos da Classe||
 ||Dispenser.java||3||4||11||
 ||TestDriver.java||1||1||7||
 ||VendingMachine.java||4||1||5||
 
-*ANPM:* efetuando a divisão entre o número total de parâmetros e o número de métodos de cada classe, verifica-se que os valores corretos foram dados pelo "Metrics".
+*ANPM:* efetuando a divisão entre o número total de parâmetros e o número de métodos de cada classe, verifica-se que o "Metrics" calculou os valores corretamente.
 
-*CC_AVG:* efetuando a divisão entre a soma da complexidade ciclomática dos métodos da classe e o número de métodos de cada classe, verifica-se que os valores corretos foram dados pelo "Metrics".
+*CC_AVG:* efetuando a divisão entre a soma da complexidade ciclomática dos métodos da classe e o número de métodos de cada classe, verifica-se que o "Metrics" calculou os valores corretamente.
 
-*WMC_CC:* pela definição, o WMC_CC é a soma da complexidade ciclomática dos métodos de cada classe. Assim, como pode ser verificado, o valor retornado pelo "Metrics" é o correto. 
+*WMC_CC:* pela definição, o WMC_CC é a soma da complexidade ciclomática dos métodos de cada classe. Assim, como pode ser verificado, o "Metrics" retornou o valor correto.
+
+<h4><u>_Observação (baseada na resposta por e-mail de Marcio Delamaro):_</u></h4>
+
+Os valores retornados pela JaBUTi foram divergentes porque ela considera, justamente, o _bytecode_ do programa. Com isso, ela pode considerar métodos que não estão explícitos no código-fonte (por exemplo, ela considera o método construtor por default, e o "Metrics" apenas quando ele está implementado explicitamente no código-fonte). Como os métodos Dispenser.java e TestDriver.java não possuem construtor no código-fonte, se adicionarmos 1 ao número de métodos e refazermos as contas, ANPM e CC_AVG estão de acordo com o que seria esperado da análise do _bytecode_ do programa.
 
 
 ----
