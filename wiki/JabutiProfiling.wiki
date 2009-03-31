@@ -3,6 +3,45 @@
 
 = Execução de Ferramentas de Profile na Jabuti =
 
+==[http://eclipse.org/tptp Eclipse TPTP - Test & Performance Tools Platform]==
+
+Para este teste realizamos a carga do Jabuti e executamos com o Exemplo presente no tutorial da ferramenta.
+Para a avaliação foram criados os seguintes filtros:
+
+[http://jabutimetrics.googlecode.com/files/filters.png]
+
+Estes filtros descartam as classes comuns do Java da análise de desempenho. Descartamos também as classes pertencentes ao pacote de interface gráfica o br.jabuti.gui.
+
+O resultado da avaliação se encontra na figura abaixo e pode também ser acessada a partir do link: [http://spreadsheets.google.com/ccc?key=p4W3XPP4LMg5XycyulM1AQA Planilha com dados de Execução do TPTP no Jabuti]
+
+[http://jabutimetrics.googlecode.com/files/screen.png]
+
+Esta análise nos permite concluir que boa parte do tempo está sendo gasto com classes no pacote criteria (faixa vermelha) e também com o pacote graph (faixa marrom).  Ambos possuem um número elevado de chamadas, por isso consumiram boa parte do tempo.
+
+Poucas chamadas foram realizadas aos componentes presentes no pacote responsável pela invocação das métricas. Sabemos que o pacote de métrica faz uso, pelo menos, do pacote graph. Cabe um estudo se este pacote de métricas faz uso das operações definidas no pacote criteria. 
+
+O gráfico abaixo mostra em porcentagem o tempo consumido por pacote: 
+
+[http://jabutimetrics.googlecode.com/files/screen2.png]
+
+
+A ferramenta torna possível também analisar a hierarquia de chamadas a métodos e a porcentagem cumulativa do tempo gasto em cada uma delas. O resultado desta análise se encontra na figura abaixo
+
+[http://jabutimetrics.googlecode.com/files/screen3.png]
+
+O método rebuild foi o que consumiu a maior parte do tempo, (12%). Na figura é possível ver a porcentagem por chamadas feitas dentro do método rebuild(). A próxima figura apresenta os métodos que consumiram maior porcentagem do tempo.
+
+[http://jabutimetrics.googlecode.com/files/screen4.png]
+
+
+A próxima figura apresenta a análise de metodos que implementam as métricas por tempo consumido.
+
+
+[http://jabutimetrics.googlecode.com/files/screen5.png]
+
+As métricas que consumiram maior quantidade de tempo foram as que chamaram o método CC, que calcula a complexidade ciclomática e *faz uso do grafo gerado durante o Rebuild*. Neste caso, as métricas, cujos métodos correspondem a: _wmc_cc_ (peso do método baseado na complexidade ciclomática)  e _cc_avg_ (complexidade ciclomática média)
+
+
 ==Java Profiler==
 
 ===Código para Teste===
