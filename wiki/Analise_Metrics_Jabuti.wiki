@@ -4,7 +4,7 @@
 
 http://jabutimetrics.googlecode.com/files/resultados1-vending-machine.png
 
-Na tabela acima, é mostrado o resultado obtido em ambas as ferramentas, sendo que o que está grifado em vermelho é um valor divergente.
+Na tabela acima (disponível também no link: [http://spreadsheets.google.com/pub?key=pKWnJNvmkYrP_tMkmyicDbA]), é mostrado o resultado obtido em ambas as ferramentas, sendo que o que está grifado em vermelho é um valor divergente.
 
 Como pode-se ver, as métricas que deram valores diferentes foram: ANPM (Número Médio de Parâmetros), CC_AVG (Número Médio da Complexidade Ciclomática) e WMC_CC (_Weighted Methods per Class_).
 
@@ -29,4 +29,8 @@ Os valores retornados pela JaBUTi foram divergentes porque ela considera, justam
 
 =<h3>Exemplo do Programa de Testes </h3>=
 
-Em elaboração.
+Executando o programa de testes (OConGraX) na JaBUTi, e comparando com os resultados obtidos no Metrics, foi obtida uma planilha, disponível no link abaixo:
+
+[http://spreadsheets.google.com/pub?key=pKWnJNvmkYrObbEFl-urZSA]
+
+Uma análise sobre as métricas divergentes está em elaboração.
