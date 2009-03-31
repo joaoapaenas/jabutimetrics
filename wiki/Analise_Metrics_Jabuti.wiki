@@ -33,4 +33,12 @@ Executando o programa de testes (OConGraX) na JaBUTi, e comparando com os result
 
 [http://spreadsheets.google.com/pub?key=pKWnJNvmkYrObbEFl-urZSA]
 
-Uma análise sobre as métricas divergentes está em elaboração.
+Observando a planilha, é possível ver que as métricas que deram valores divergentes são: ANPM, CC_AVG, CC_MAX, DIT, MNPM, NCM, NII e WMC_CC. Para realizar uma análise mais justa, as métricas ANPM, CC_AVG, CC_MAX e WMC_CC não serão consideradas no momento, pois elas dependem de uma análise mais detalhada do bytecode do código e do grafo gerado pela JaBUTi.
+
+Com relação às métricas MNPM e NCM, vendo apenas o código-fonte temos que o valor retornado pelo Metrics está correto.
+
+Já as métricas NII e DIT deram valores divergentes, possivelmente porque a definição considerada pelo Metrics é ligeiramente diferente da definição considerada pelo JaBUTi. 
+
+ * A métrica NII (número de interfaces implementadas) da JaBUTi, conta as interfaces "implementadas" (interfaces chamadas por "implements" na declaração da classe), enquanto a métrica do Metrics conta as interfaces efetivamente programadas e que constam no código do programa. Assim, o valor retornado por ambas as ferramentas está correto.
+
+ * A métrica DIT (_depth of inheritance tree_) apresenta definições iguais, entretanto o Metrics considera o caminho pela hierarquia até a classe Object, enquanto a JaBUTi considera o caminho até a primeira classe que não pertence à estrutura do programa, já que a representação utilizada pelo programa não inclui todas as classes até a raiz da árvore de hierarquia (classe Object). Desta forma, o valor retornado por ambas, apesar de divergentes, estão de acordo com a definição utilizada por cada uma das ferramentas.
