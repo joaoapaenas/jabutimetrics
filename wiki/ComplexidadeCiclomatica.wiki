@@ -8,12 +8,25 @@ Complexidade ciclomática (também chamada de complexidade condicional) é uma m
 Reflete diretamente o número de caminhos independentes que um programa pode tomar durante a sua execução. Esta métrica está relacionada a disciplina de testes, pois para cada um dos caminhos (em tese) deveríamos criar um caso de teste que exercite-o.
 
 ==Cálculo da Complexidade Ciclomática==
-O cálculo se dá da seguinte forma:
+De forma geral, a fórmula é a seguinte:
+<pre>CC = A - N + C + R</pre>
+   * CC: Complexidade Ciclomática
+   * A: número de arestas
+   * N: número de nós
+   * C: número de componentes conectados
+   * A: número de saídas
+
+
+Para algoritmos com um componente, um ponto de entrada e um ponto de saída,
+o cálculo se dá da seguinte forma:
 
 <pre> CC = A - N + 2</pre>
    * CC: Complexidade Ciclomática
    * A: número de arestas
    * N: número de nós
+
+
+
 
 Também pode ser calculado como:
 <pre> CC = P + 1 </pre>
