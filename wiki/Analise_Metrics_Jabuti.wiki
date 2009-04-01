@@ -1,5 +1,15 @@
 #summary Análise comparativa entre os resultados obtidos pela JaBUTi e pelo Metrics.
 
+Links para as planilhas utilizadas nesta página:
+ * [http://spreadsheets.google.com/pub?key=pKWnJNvmkYrP_tMkmyicDbA]
+ * [http://spreadsheets.google.com/pub?key=pKWnJNvmkYrObbEFl-urZSA]
+
+----
+
+<wiki:toc max_depth="1" />
+
+----
+
 =<h3>Exemplo do Manual da JaBUTi - Máquina de vendas</h3>=
 
 http://jabutimetrics.googlecode.com/files/resultados1-vending-machine.png
@@ -42,3 +52,11 @@ Já as métricas NII e DIT deram valores divergentes, possivelmente porque a def
  * A métrica NII (número de interfaces implementadas) da JaBUTi, conta as interfaces "implementadas" (interfaces chamadas por "implements" na declaração da classe), enquanto a métrica do Metrics conta as interfaces efetivamente programadas e que constam no código do programa. Assim, o valor retornado por ambas as ferramentas está correto.
 
  * A métrica DIT (_depth of inheritance tree_) apresenta definições iguais, entretanto o Metrics considera o caminho pela hierarquia até a classe Object, enquanto a JaBUTi considera o caminho até a primeira classe que não pertence à estrutura do programa, já que a representação utilizada pelo programa não inclui todas as classes até a raiz da árvore de hierarquia (classe Object). Desta forma, o valor retornado por ambas, apesar de divergentes, estão de acordo com a definição utilizada por cada uma das ferramentas.
+
+----
+
+=<h3> Sobre o tempo de execução </h3>=
+
+O tempo de execução da JaBUTi, para o exemplo da *máquina de vendas* foi muito bom, com o resultado das métricas saindo em cerca de um minuto. Já para o exemplo do *programa de testes*, ele demorou cerca de 3 minutos para carregar as classes e mais uns 5 minutos para computar as métricas.
+
+Os exemplos foram rodados na JaBUTi num computador muito bom. Não tenho todas as configurações dele no momento, mas trata-se de um AMD Quad-Core com 8GB de RAM.
