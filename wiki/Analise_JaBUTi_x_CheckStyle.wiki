@@ -48,19 +48,27 @@ $/VendingMachine.java:50:17: Mais do que 0 parâmetros.
 
 *<u>Observação:</u>* Como o CheckStyle apresenta uma lista de erros, nós alteramos os valores limites para 0, afim de listar todos os resultados e comparar com JaBUTi.
 
-=<h3>Analise do Código da JaBUTi</h3>=
-
-=<h2>Execução de CheckStyle</h2>=
+=<h3>Resultado da execução do CheckStyle no Código da JaBUTi</h3>=
 
 {{{
 user@pedrita:~/checkstyle$ java -jar checkstyle-all-5.0-beta2.jar -c jabuti_checks2.xml ../workspace/JabutiMetrics/src/br/jabuti/*/*.java
 }}}
+Tempo:
+ * real	0m7.739s
+ * user	0m7.120s
+ * sys	0m0.284s
+
+
 
  * resultado no arquivo [http://jabutimetrics.googlecode.com/files/jabuti01.txt]
 
 {{{
 user@pedrita:~/checkstyle$ java -jar checkstyle-all-5.0-beta2.jar -c jabuti_checks2.xml ../workspace/JabutiMetrics/src/br/jabuti/mobility/*/*.java
 }}}
+Tempo:
+ * real	0m1.353s
+ * user	0m1.064s
+ * sys	0m0.072s
 
  * resultado no arquivo [http://jabutimetrics.googlecode.com/files/jabuti02.txt]
 
