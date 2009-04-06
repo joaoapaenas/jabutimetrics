@@ -14,7 +14,7 @@
 
 http://jabutimetrics.googlecode.com/files/jabutixcheckstyle.png
 
-Na tabela acima (disponível também no link: [http://spreadsheets.google.com/pub?key=p_W239cOkFGztGgjrzpENLQ]), é mostrado o resultado obtido em ambas as ferramentas, sendo que o que está grifado em vermelho é um valor divergente.
+Na tabela acima (disponível também no link: [http://spreadsheets.google.com/pub?key=p_W239cOkFGztGgjrzpENLQ]), apresenta o resultado obtido em ambas ferramentas, o que está grifado em vermelho é um valor divergente.
 
 =<h3>Execução de CheckStyle</h3>=
 
@@ -46,7 +46,7 @@ $/VendingMachine.java:50:5: Método tem 8 linhas (máx. permitido são 0).
 $/VendingMachine.java:50:17: Mais do que 0 parâmetros.
 }}}
 
-*<u>Observação:</u>* Como o CheckStyle apresenta uma lista de erros, nós alteramos os valores limites para 0, afim de listar todos os resultados e comparar com JaBUTi.
+*<u>Observação:</u>* Como o CheckStyle somente apresenta uma lista de erros, nós alteramos os valores limites para 0, afim de listar resultados que posam ser comparar com JaBUTi.
 
 =<h3>Resultado da execução do CheckStyle no Código da JaBUTi</h3>=
 
@@ -71,5 +71,3 @@ Tempo:
  * sys	0m0.072s
 
  * resultado no arquivo [http://jabutimetrics.googlecode.com/files/jabuti02.txt]
-
-*<u>Observação:</u>* Como o CheckStyle apresenta uma lista de erros, nós alteramos os valores limites para 0, afim de listar todos os resultados e comparar com JaBUTi.
