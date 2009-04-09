@@ -14,7 +14,7 @@ De forma geral, a fórmula é a seguinte:
    * A: número de arestas
    * N: número de nós
    * C: número de componentes conectados
-   * A: número de saídas
+   * R: número de saídas
 
 
 Para algoritmos com um componente, um ponto de entrada e um ponto de saída,
