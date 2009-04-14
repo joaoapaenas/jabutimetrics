@@ -55,7 +55,9 @@ Métrica calculada através da contagem do número de pares de métodos na class
 
 *<u>Variações:</u>*
  * Considerar só a coesão entre métodos estáticos; esta métrica será chamada LCOM_2;
- * Considerar a coesão de métodos estáticos ou de instância; esta métrica, chamada LCOM_3 pode ser calculada como LCOM_ − LCOM_2;
+ * Considerar a coesão de métodos estáticos ou de instância; esta métrica, chamada LCOM_3 pode ser calculada como LCOM_ + LCOM_2;
+
+<h5><i>Obs.: a variação LCOM_3 aparece no manual como sendo LCOM_ - LCOM_2; entretanto, no código, a definição é LCOM_ + LCOM_2. Por isso, colocamos neste Wiki a definição que está implementada no código da JaBUTi.</i></h5>
 
 = <h3> 08. _Maximum Number of Parameters per Method (MNPM)_ </h3> =
 Número máximo de parâmetros em um método da classe.
