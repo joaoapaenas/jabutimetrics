@@ -7,9 +7,8 @@ A forma de cálculo desta métrica não toma em conta a ocultação (shadowing) 
 {{{
 public class SuperClassA {
 	
-	private int method1(){
+	private void method1(){
 		System.out.println("Method1 SuperClass");
-                return 0;
 	}
 	
 	public void printMessage(){
