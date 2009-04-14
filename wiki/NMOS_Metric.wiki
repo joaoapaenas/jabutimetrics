@@ -1,4 +1,4 @@
-#Duvidas Number of Methods Overridden by a Subclass (NMOS)
+#summary Number of Methods Overridden by a Subclass (NMOS)
 
 No cálculo da métrica NMOS, o JaBUTi calcula o número de métodos sobrescritos na subclasse, através da contagem do número de métodos definidos na subclasse com o mesmo nome e a mesma assinatura de um método na sua superclasse. Os Construtores e inicializadores estáticos não são considerados.
 
