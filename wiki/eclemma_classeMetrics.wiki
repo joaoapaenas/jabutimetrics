@@ -9,7 +9,7 @@ A cobertura de código dos testes (escritos para as 20 métricas da JaBUTi), ger
 
 [http://jabutimetrics.googlecode.com/files/eclemma-classeMetrics.html]
 
-A métrica com menor cobertura é a NII, com 85.2%. Já as métricas com maiores coberturas são: AMZ_LOCM, LCOM (LCOM, LCOM-2, LCOM-3), MNPM, NCV, NIV, NOC e NPIM - a cobertura delas chegou a 100%.
+A métrica com menor cobertura é a NII, com 85.2%. Já as métricas com maiores coberturas são: AMZ_LOCM, LCOM (LCOM, LCOM-2, LCOM-3), MNPM, NCV, NIV, NOC e NPIM -- a cobertura delas chegou a 100%.
 
 <br>
 
