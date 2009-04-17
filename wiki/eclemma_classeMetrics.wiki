@@ -13,7 +13,7 @@ A métrica com menor cobertura é a NII, com 85.2%. Já as métricas com maiores
 
 <br>
 
-*Observação:* o EclEmma realiza uma instrumentação do bytecode do código a ser analisado, o que torna este bytecode diferente da do gerado pelo compilador Java utilizado pelo grupo no Eclipse. Por isso, os resultados dos testes podem ser divergentes quando rodamos o JUnit e o EclEmma, o que acaba tornando a cobertura de códigos aceitável, mas não 100% confiável.
+*Observação:* o EclEmma realiza uma instrumentação do _bytecode_ do código a ser analisado, o que torna este _bytecode_ diferente da do gerado pelo compilador Java utilizado pelo grupo no Eclipse. Por isso, os resultados dos testes podem ser divergentes quando rodamos o JUnit e o EclEmma, o que acaba tornando a cobertura de código aceitável, mas não 100% confiável.
 ------
 
 =<h3>Referências</h3>=
