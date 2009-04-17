@@ -19,6 +19,4 @@ A métrica com menor cobertura é a NII, com 85.2%. Já as métricas com maiores
 =<h3>Referências</h3>=
 
  * Para informações sobre as métricas da JaBUTi, acesse: [http://code.google.com/p/jabutimetrics/wiki/Jabuti_Metricas];
- * Para saber mais sobre EclEmma, acesse: [www.eclemma.org].
-
-
+ * Para saber mais sobre EclEmma, acesse: [http://www.eclemma.org].
