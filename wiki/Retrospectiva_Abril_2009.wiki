@@ -25,41 +25,31 @@ As reuniões com o cliente têm sido muito informais e pouco planejadas. Além d
 =<h3>Pares</h3>=
 
 <u><b>Problema:</b></u> 
-As reuniões com o cliente têm sido muito informais e pouco planejadas. Além disso, elas ocorreram, em sua maioria, no período do almoço de terça, período esse em que o grupo não está completo. Desta forma, os integrantes que não puderam estar presentes não têm chance de esclarecer dúvidas e de mostrarem suas opiniões ao cliente, o que é ruim, uma vez que isto poderia fazer com que o resultado da reunião e o direcionamento do trabalho fossem diferentes.
+Há pares que estão se repetindo muito durante as aulas. Em parte, esta repetição de pares acaba ocorrendo devido aos horários em que cada um chega (as horas extras são cumpridas em horários diferentes ou, então, acontecem atrasos).
 
-<u><b>(Possíveis) Soluções:</b></u>
- * <b>Cartaz de dúvidas:</b> fazer um cartaz na qual os membros do grupo colocariam as dúvidas a serem esclarecidas com o cliente, assim que elas surgirem. Desta forma, na próxima reunião, o cliente pode ser levado até o laboratório para ver o cartaz e esclarecer todas as dúvidas presentes no cartaz.
-
- * <b>Mandar e-mail para o cliente:</b> para esclarecer dúvidas ou trocar idéias rapidamente, mandar e-mail para o cliente.
-
- * <b>Conversar antes:</b> na aula que antecede à reunião, conversar com todos os membros do grupo para saber quais tópicos precisam ser esclarecidos pelo cliente. Assim, mesmo que alguns não estejam presentes durante a reunião, é possível esclarecer as dúvidas de todos.
+<u><b>Solução:</b></u>
+ * <b>Trocar os pares:</b> procurar trocar os pares no início e durante as aulas. Desta maneira, uma dupla pode começar a desenvolver uma tarefa e, em certo ponto, um dos membros do par pode ser trocado, por exemplo, por outro membro que chegou naquela hora. Apesar de parecer que o ritmo do trabalho nesta tarefa será diminuído (já que será preciso inteirar a outra pessoa sobre o que está em desenvolvimento no momento), o ganho será maior com a troca do par. Isto porque, com a alternância de pares, mais pessoas ficarão inteiradas sobre o que está acontecendo, uma tarefa que não foi completada pode ser retomada mesmo que o último par que nela trabalhou falte, e a coletividade do código será favorecida.
 
 <br>
 
 =<h3>Sala/Tempo</h3>=
 <u><b>Problema:</b></u> 
-As reuniões com o cliente têm sido muito informais e pouco planejadas. Além disso, elas ocorreram, em sua maioria, no período do almoço de terça, período esse em que o grupo não está completo. Desta forma, os integrantes que não puderam estar presentes não têm chance de esclarecer dúvidas e de mostrarem suas opiniões ao cliente, o que é ruim, uma vez que isto poderia fazer com que o resultado da reunião e o direcionamento do trabalho fossem diferentes.
+
 
 <u><b>(Possíveis) Soluções:</b></u>
- * <b>Cartaz de dúvidas:</b> fazer um cartaz na qual os membros do grupo colocariam as dúvidas a serem esclarecidas com o cliente, assim que elas surgirem. Desta forma, na próxima reunião, o cliente pode ser levado até o laboratório para ver o cartaz e esclarecer todas as dúvidas presentes no cartaz.
+ * <b>Horários fixos para "papo em pé":</b> 
 
- * <b>Mandar e-mail para o cliente:</b> para esclarecer dúvidas ou trocar idéias rapidamente, mandar e-mail para o cliente.
 
- * <b>Conversar antes:</b> na aula que antecede à reunião, conversar com todos os membros do grupo para saber quais tópicos precisam ser esclarecidos pelo cliente. Assim, mesmo que alguns não estejam presentes durante a reunião, é possível esclarecer as dúvidas de todos.
 
 <br>
 
 =<h3>Passar muito tempo sem escrever código</h3>=
 
 <u><b>Problema:</b></u> 
-As reuniões com o cliente têm sido muito informais e pouco planejadas. Além disso, elas ocorreram, em sua maioria, no período do almoço de terça, período esse em que o grupo não está completo. Desta forma, os integrantes que não puderam estar presentes não têm chance de esclarecer dúvidas e de mostrarem suas opiniões ao cliente, o que é ruim, uma vez que isto poderia fazer com que o resultado da reunião e o direcionamento do trabalho fossem diferentes.
+
 
 <u><b>(Possíveis) Soluções:</b></u>
- * <b>Cartaz de dúvidas:</b> fazer um cartaz na qual os membros do grupo colocariam as dúvidas a serem esclarecidas com o cliente, assim que elas surgirem. Desta forma, na próxima reunião, o cliente pode ser levado até o laboratório para ver o cartaz e esclarecer todas as dúvidas presentes no cartaz.
-
- * <b>Mandar e-mail para o cliente:</b> para esclarecer dúvidas ou trocar idéias rapidamente, mandar e-mail para o cliente.
-
- * <b>Conversar antes:</b> na aula que antecede à reunião, conversar com todos os membros do grupo para saber quais tópicos precisam ser esclarecidos pelo cliente. Assim, mesmo que alguns não estejam presentes durante a reunião, é possível esclarecer as dúvidas de todos.
+ * <b>Problema "resolvido":</b> 
 
 <br>
 
@@ -67,41 +57,33 @@ As reuniões com o cliente têm sido muito informais e pouco planejadas. Além d
 =<h3>JaBUTi</h3>=
 
 <u><b>Problema:</b></u> 
-As reuniões com o cliente têm sido muito informais e pouco planejadas. Além disso, elas ocorreram, em sua maioria, no período do almoço de terça, período esse em que o grupo não está completo. Desta forma, os integrantes que não puderam estar presentes não têm chance de esclarecer dúvidas e de mostrarem suas opiniões ao cliente, o que é ruim, uma vez que isto poderia fazer com que o resultado da reunião e o direcionamento do trabalho fossem diferentes.
+
 
 <u><b>(Possíveis) Soluções:</b></u>
- * <b>Cartaz de dúvidas:</b> fazer um cartaz na qual os membros do grupo colocariam as dúvidas a serem esclarecidas com o cliente, assim que elas surgirem. Desta forma, na próxima reunião, o cliente pode ser levado até o laboratório para ver o cartaz e esclarecer todas as dúvidas presentes no cartaz.
-
- * <b>Mandar e-mail para o cliente:</b> para esclarecer dúvidas ou trocar idéias rapidamente, mandar e-mail para o cliente.
-
- * <b>Conversar antes:</b> na aula que antecede à reunião, conversar com todos os membros do grupo para saber quais tópicos precisam ser esclarecidos pelo cliente. Assim, mesmo que alguns não estejam presentes durante a reunião, é possível esclarecer as dúvidas de todos.
+ * <b>Conversa com o cliente:</b> 
 
 <br>
 
 =<h3>XPlanner</h3>=
 
 <u><b>Problema:</b></u> 
-As reuniões com o cliente têm sido muito informais e pouco planejadas. Além disso, elas ocorreram, em sua maioria, no período do almoço de terça, período esse em que o grupo não está completo. Desta forma, os integrantes que não puderam estar presentes não têm chance de esclarecer dúvidas e de mostrarem suas opiniões ao cliente, o que é ruim, uma vez que isto poderia fazer com que o resultado da reunião e o direcionamento do trabalho fossem diferentes.
+
 
 <u><b>(Possíveis) Soluções:</b></u>
- * <b>Cartaz de dúvidas:</b> fazer um cartaz na qual os membros do grupo colocariam as dúvidas a serem esclarecidas com o cliente, assim que elas surgirem. Desta forma, na próxima reunião, o cliente pode ser levado até o laboratório para ver o cartaz e esclarecer todas as dúvidas presentes no cartaz.
+ * <b>Não usar?:</b> 
 
- * <b>Mandar e-mail para o cliente:</b> para esclarecer dúvidas ou trocar idéias rapidamente, mandar e-mail para o cliente.
-
- * <b>Conversar antes:</b> na aula que antecede à reunião, conversar com todos os membros do grupo para saber quais tópicos precisam ser esclarecidos pelo cliente. Assim, mesmo que alguns não estejam presentes durante a reunião, é possível esclarecer as dúvidas de todos.
+ * <b>Para quê o cliente gosta?:</b> 
 
 <br>
 
 =<h3>Comunicação</h3>=
 
 <u><b>Problema:</b></u> 
-As reuniões com o cliente têm sido muito informais e pouco planejadas. Além disso, elas ocorreram, em sua maioria, no período do almoço de terça, período esse em que o grupo não está completo. Desta forma, os integrantes que não puderam estar presentes não têm chance de esclarecer dúvidas e de mostrarem suas opiniões ao cliente, o que é ruim, uma vez que isto poderia fazer com que o resultado da reunião e o direcionamento do trabalho fossem diferentes.
+
 
 <u><b>(Possíveis) Soluções:</b></u>
- * <b>Cartaz de dúvidas:</b> fazer um cartaz na qual os membros do grupo colocariam as dúvidas a serem esclarecidas com o cliente, assim que elas surgirem. Desta forma, na próxima reunião, o cliente pode ser levado até o laboratório para ver o cartaz e esclarecer todas as dúvidas presentes no cartaz.
+ * <b>Conversas/Papo em pé:</b>
 
- * <b>Mandar e-mail para o cliente:</b> para esclarecer dúvidas ou trocar idéias rapidamente, mandar e-mail para o cliente.
-
- * <b>Conversar antes:</b> na aula que antecede à reunião, conversar com todos os membros do grupo para saber quais tópicos precisam ser esclarecidos pelo cliente. Assim, mesmo que alguns não estejam presentes durante a reunião, é possível esclarecer as dúvidas de todos.
+ * <b>Uso de ferramentas para comunicação:</b> 
 
 <br>
