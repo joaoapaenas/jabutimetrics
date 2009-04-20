@@ -1,8 +1,12 @@
-#summary Problemas e Soluções discutidos na Retrospectiva de Abril/2009.
+#summary Retrospectiva de Abril/2009.
 
 <h1>Retrospectiva</h1>
 
-Na retrospectiva feita no mês de Abril/09, foram levantados diversos itens que atrapalharam nosso trabalho, e itens nos quais podemos melhorar. Estes itens e suas possíveis soluções são apresentados a seguir:
+Na retrospectiva feita no mês de Abril/09, foram levantados diversos tópicos, dentre os quais os "itens que foram e continuam sendo bons para o desenvolvimento do projeto/itens que fazemos bem", e os "itens que atrapalharam nosso trabalho/itens nos quais podemos melhorar". 
+
+Com relação aos itens bons, ressaltamos o *_tracking_*, a *escrita de testes*, o *bom clima dentro da equipe* e o *contato com os criadores da JaBUTi*.  
+
+Já os itens que merecem nossa atenção, para podermos melhorá-los e resolvê-los, são apresentados a seguir, com uma pequena descrição sobre cada um deles e possíveis soluções:
 
 <wiki:toc max_depth="1" />
 
@@ -34,10 +38,12 @@ Há pares que estão se repetindo muito durante as aulas. Em parte, esta repeti�
 
 =<h3>Sala/Tempo</h3>=
 <u><b>Problema:</b></u> 
+A diferença nos horários em que cada um chega (seja por causa de atrasos, seja por causa dos horários extras que diferem entre os integrantes do grupo) atrapalhou o rendimento da equipe. Além disso, às terças ficou combinado que alguns membros da equipe cumpram horário extra das 16h às 18h, mas o laboratório precisa ser desocupado às 16h devido à aula de outra disciplina. Isto acaba afetando um pouco também, já que é preciso procurar outro local para continuar o trabalho.
 
 
 <u><b>(Possíveis) Soluções:</b></u>
- * <b>Horários fixos para "papo em pé":</b> 
+ * <b>Horários fixos:</b> para evitar problemas de rendimento (como ficar esperando alguém que está atrasado para começar alguma reunião, por exemplo), uma idéia é a de marcar horários fixos para alguns "compromissos" do grupo. Com os horários fixados, independente de algum membro da equipe vir ou não o "compromisso" será realizado na hora marcada. Inicialmente, <b>definimos o horário para o nosso "papo em pé": às terças, a partir das 14h30; e às quintas, a partir das 10h30</b>.
+ * <b>Sala:</b> a questão da sala não estar disponível às terças depois das 16h, ao que as pessoas que precisam cumprir este horário extra disseram, não é tão problemática. Apesar da opção de usar o lab. Eclipse estar descartada (pois não há espaço disponível), há as opções de utilizar uma sala da biblioteca (porque uma das pessoas que cumprem o horário das 16h-18h possui notebook com acesso à rede wireless do IME) ou o LCPD.
 
 
 
