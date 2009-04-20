@@ -43,8 +43,7 @@ A diferença nos horários em que cada um chega (seja por causa de atrasos, seja
 
 <u><b>(Possíveis) Soluções:</b></u>
  * <b>Horários fixos:</b> para evitar problemas de rendimento (como ficar esperando alguém que está atrasado para começar alguma reunião, por exemplo), uma idéia é a de marcar horários fixos para alguns "compromissos" do grupo. Com os horários fixados, independente de algum membro da equipe vir ou não o "compromisso" será realizado na hora marcada. Inicialmente, <b>definimos o horário para o nosso "papo em pé": às terças, a partir das 14h30; e às quintas, a partir das 10h30</b>.
- * <b>Sala:</b> a questão da sala não estar disponível às terças depois das 16h, ao que as pessoas que precisam cumprir este horário extra disseram, não é tão problemática. Apesar da opção de usar o lab. Eclipse estar descartada (pois não há espaço disponível), há as opções de utilizar uma sala da biblioteca (porque uma das pessoas que cumprem o horário das 16h-18h possui notebook com acesso à rede wireless do IME) ou o LCPD.
-
+ * <b>Sala:</b> a questão da sala não estar disponível às terças depois das 16h, ao que as pessoas que precisam cumprir este horário extra disseram, não é tão problemática. Apesar da opção de usar o lab. Eclipse estar descartada (pois não há espaço disponível), há as opções de utilizar uma sala da biblioteca ou o LCPD (porque uma das pessoas que cumprem o horário das 16h-18h possui notebook com acesso à rede wireless do IME).
 
 
 <br>
@@ -52,10 +51,11 @@ A diferença nos horários em que cada um chega (seja por causa de atrasos, seja
 =<h3>Passar muito tempo sem escrever código</h3>=
 
 <u><b>Problema:</b></u> 
+Durante a fase de exploração, foram solicitadas pelo cliente várias análises sobre a JaBUTi, o que demandou muito tempo da equipe para escrever documentação ao invés de programar. E apesar das análises terem sido importantes, ficar escrevendo documentação por muito tempo, e sem escrever código, acaba desmotivando as pessoas, sendo até frustrante.
 
 
 <u><b>(Possíveis) Soluções:</b></u>
- * <b>Problema "resolvido":</b> 
+ * <b>Problema "resolvido":</b> aparentemente, este problema já faz parte do passado, pois os cartões para escrita de análise/documentação estavam presentes apenas nesta Fase de Exploração. Entretanto, vale o alerta para tomar cuidado para que tal fato não se repita.
 
 <br>
 
@@ -64,32 +64,39 @@ A diferença nos horários em que cada um chega (seja por causa de atrasos, seja
 
 <u><b>Problema:</b></u> 
 
+Diversos itens problemáticos relacionados à JaBUTi, como bugs, entendimento do código e seu funcionamento, atrapalharam o desenvolvimento do trabalho. Ademais, o foco do trabalho acabou por ficar indefinido ao final desta fase de desenvolvimento.
 
-<u><b>(Possíveis) Soluções:</b></u>
- * <b>Conversa com o cliente:</b> 
+
+<u><b>Solução:</b></u>
+ * <b>Conversa com o cliente:</b> é preciso conversar com o cliente a respeito do direcionamento do nosso trabalho. Ao nosso ver, há dois caminhos possíveis:
+  * Continuar trabalhando com _bytecode_ apenas;
+  * Começar a trabalhar com código-fonte (o que acarretaria em começar um trabalho praticamente do zero).
 
 <br>
 
 =<h3>XPlanner</h3>=
 
 <u><b>Problema:</b></u> 
+A utilidade do XPlanner para nosso trabalho é bastante questionável porque é mais fácil verificar o andamento do desenvolvimento por meio dos cartazes de _tracking_. Além disso, gasta-se muito tempo para inserir/atualizar os dados do XPlanner.
 
 
 <u><b>(Possíveis) Soluções:</b></u>
- * <b>Não usar?:</b> 
+ * <b>Não usar?:</b> abolir o uso do XPlanner no nosso trabalho, pois ele não está se mostrando útil para nós.
 
- * <b>Para quê o cliente gosta?:</b> 
+ * <b>Diminuir o uso de funcionalidades do XPlanner:</b> utilizar apenas o que é interessante para o grupo; com isso, o tempo gasto no XPlanner poderá ser bastante reduzido.
+
+ * <b>Para quê o cliente gosta?:</b> questionar o cliente sobre a necessidade de usarmos o XPlanner.
 
 <br>
 
 =<h3>Comunicação</h3>=
 
 <u><b>Problema:</b></u> 
-
+A comunicação dentro do grupo está relativamente boa, mas pode ser melhorada.
 
 <u><b>(Possíveis) Soluções:</b></u>
- * <b>Conversas/Papo em pé:</b>
+ * <b>Conversas/Papo em pé:</b> fazer mais, inteirando todo o grupo sobre o que cada um (cada par) está trabalhando no projeto.
 
- * <b>Uso de ferramentas para comunicação:</b> 
+ * <b>Uso de ferramentas para comunicação:</b> utilizar (mais) outras formas de comunicação, como e-mail e wiki.
 
 <br>
