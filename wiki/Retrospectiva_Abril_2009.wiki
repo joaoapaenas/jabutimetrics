@@ -16,6 +16,7 @@ Já os itens que merecem nossa atenção, para podermos melhorá-los e resolvê-
 =<h3>Cliente ausente (?)</h3>=
 
 <u><b>Problema:</b></u> 
+
 As reuniões com o cliente têm sido muito informais e pouco planejadas. Além disso, elas ocorreram, em sua maioria, no período do almoço de terça, período esse em que o grupo não está completo. Desta forma, os integrantes que não puderam estar presentes não têm chance de esclarecer dúvidas e de mostrarem suas opiniões ao cliente, o que é ruim, uma vez que isto poderia fazer com que o resultado da reunião e o direcionamento do trabalho fossem diferentes.
 
 <u><b>(Possíveis) Soluções:</b></u>
@@ -30,6 +31,7 @@ As reuniões com o cliente têm sido muito informais e pouco planejadas. Além d
 =<h3>Pares</h3>=
 
 <u><b>Problema:</b></u> 
+
 Há pares que estão se repetindo muito durante as aulas. Em parte, esta repetição de pares acaba ocorrendo devido aos horários em que cada um chega (as horas extras são cumpridas em horários diferentes ou, então, acontecem atrasos).
 
 <u><b>Solução:</b></u>
@@ -39,6 +41,7 @@ Há pares que estão se repetindo muito durante as aulas. Em parte, esta repeti�
 
 =<h3>Sala/Tempo</h3>=
 <u><b>Problema:</b></u> 
+
 A diferença nos horários em que cada um chega (seja por causa de atrasos, seja por causa dos horários extras que diferem entre os integrantes do grupo) atrapalhou o rendimento da equipe. Além disso, às terças ficou combinado que alguns membros da equipe cumpram horário extra das 16h às 18h, mas o laboratório precisa ser desocupado às 16h devido à aula de outra disciplina. Isto acaba afetando um pouco também, já que é preciso procurar outro local para continuar o trabalho.
 
 
@@ -52,6 +55,7 @@ A diferença nos horários em que cada um chega (seja por causa de atrasos, seja
 =<h3>Passar muito tempo sem escrever código</h3>=
 
 <u><b>Problema:</b></u> 
+
 Durante a fase de exploração, foram solicitadas pelo cliente várias análises sobre a JaBUTi, o que demandou muito tempo da equipe para escrever documentação ao invés de programar. E apesar das análises terem sido importantes, ficar escrevendo documentação por muito tempo, e sem escrever código, acaba desmotivando as pessoas, sendo até frustrante.
 
 
@@ -78,6 +82,7 @@ Diversos itens problemáticos relacionados à JaBUTi, como bugs, entendimento do
 =<h3>XPlanner</h3>=
 
 <u><b>Problema:</b></u> 
+
 A utilidade do XPlanner para nosso trabalho é bastante questionável porque é mais fácil verificar o andamento do desenvolvimento por meio dos cartazes de _tracking_. Além disso, gastou-se muito tempo para inserir/atualizar os dados do XPlanner.
 
 
@@ -93,6 +98,7 @@ A utilidade do XPlanner para nosso trabalho é bastante questionável porque é 
 =<h3>Comunicação</h3>=
 
 <u><b>Problema:</b></u> 
+
 A comunicação dentro do grupo está relativamente boa, mas pode ser melhorada.
 
 <u><b>(Possíveis) Soluções:</b></u>
