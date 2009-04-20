@@ -55,7 +55,7 @@ A diferença nos horários em que cada um chega (seja por causa de atrasos, seja
 Durante a fase de exploração, foram solicitadas pelo cliente várias análises sobre a JaBUTi, o que demandou muito tempo da equipe para escrever documentação ao invés de programar. E apesar das análises terem sido importantes, ficar escrevendo documentação por muito tempo, e sem escrever código, acaba desmotivando as pessoas, sendo até frustrante.
 
 
-<u><b>(Possíveis) Soluções:</b></u>
+<u><b>Solução:</b></u>
  * <b>Problema "resolvido":</b> aparentemente, este problema já faz parte do passado, pois os cartões para escrita de análise/documentação estavam presentes apenas nesta Fase de Exploração. Entretanto, vale o alerta para tomar cuidado para que tal fato não se repita.
 
 <br>
