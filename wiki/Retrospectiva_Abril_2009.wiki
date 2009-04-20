@@ -78,7 +78,7 @@ Diversos itens problemáticos relacionados à JaBUTi, como bugs, entendimento do
 =<h3>XPlanner</h3>=
 
 <u><b>Problema:</b></u> 
-A utilidade do XPlanner para nosso trabalho é bastante questionável porque é mais fácil verificar o andamento do desenvolvimento por meio dos cartazes de _tracking_. Além disso, gasta-se muito tempo para inserir/atualizar os dados do XPlanner.
+A utilidade do XPlanner para nosso trabalho é bastante questionável porque é mais fácil verificar o andamento do desenvolvimento por meio dos cartazes de _tracking_. Além disso, gastou-se muito tempo para inserir/atualizar os dados do XPlanner.
 
 
 <u><b>(Possíveis) Soluções:</b></u>
