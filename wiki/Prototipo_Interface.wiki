@@ -1,0 +1,6 @@
+#summary Protótipo da interface para visualização das métricas.
+
+= Protótipo da Interface =
+
+http://jabutimetrics.googlecode.com/files/prototipo.png
+
