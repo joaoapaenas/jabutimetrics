@@ -2,5 +2,4 @@
 
 = Protótipo da Interface =
 
-http://jabutimetrics.googlecode.com/files/prototipo.png
-
+<img src="http://jabutimetrics.googlecode.com/files/prototipo.png", width=768>
