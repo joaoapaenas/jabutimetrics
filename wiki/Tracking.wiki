@@ -1,5 +1,17 @@
-#summary Link para a Planilha com dados do Tracking
+#summary Links para a Planilhas e Cartazes com dados do Tracking
 
-= Planilha de Traking =
+<wiki:toc max_depth="2" />
+
+= Planilha de Tracking =
 
 [http://spreadsheets.google.com/pub?key=pMGMB2mpC1E4RjkZdnJYuIA&gid=0]
+
+= Cartazes de Tracking =
+
+== 05/05/2009 == 
+
+http://picasaweb.google.com.br/sihanazumi/0505TrackingJabutiMetrics?feat=directlink
+
+== 07/05/2009 ==
+
+http://picasaweb.google.com.br/sihanazumi/0705TrackingJabutiMetrics?feat=directlink
