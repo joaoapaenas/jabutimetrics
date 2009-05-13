@@ -21,3 +21,7 @@ http://picasaweb.google.com.br/sihanazumi/0505TrackingJabutiMetrics?feat=directl
 === 07/05/2009 ===
 
 http://picasaweb.google.com.br/sihanazumi/0705TrackingJabutiMetrics?feat=directlink
+
+=== 12/05/2009 ===
+
+http://picasaweb.google.com.br/sihanazumi/1205TrackingJabutiMetrics?feat=directlink
