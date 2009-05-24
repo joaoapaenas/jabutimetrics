@@ -1,4 +1,4 @@
-#Lista de ajustes apontadas pelo cliente para o final da iteração 2
+summary#Lista de ajustes apontadas pelo cliente para o final da iteração 2
 
 = Introduction =
 
@@ -46,6 +46,4 @@ No menu, alterar para Open Classes
 
 =Cartao novo=
 Criar status de progresso na carregamento das classes (textual ou visual - progressbar)
-
-
 
