@@ -46,3 +46,15 @@ No menu, alterar para Open Classes
 
 =Cartao novo=
 Criar status de progresso na carregamento das classes (textual ou visual - progressbar)
+
+------
+
+= Novos Ajustes = 
+
+   * Menu: "open classes ..."
+
+   * Janela de definição das métricas com título errado: Revisar todos os títulos
+
+   * Resultado: progressBar variando pelas notas - MinGrade ... MaxGrade
+
+   * Descrição das métricas ser indicada/aparecer de alguma forma na tabela de resultados
